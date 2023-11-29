@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>KURSUS ONLINE</title>
+</head>
+<body>
+	<!--------------------------------- start beranda ------------------------------------------->
+	<section>
+		<div class="bacground"></div>
+
+
+		<!---------------------- start navbar ----------------------->
+		<nav>
+			<h1>kursus online</h1>
+			<ul>
+				<li><a href="#home">beranda</a></li>
+				<li><a href="#abt">tentang</a></li>
+				<!-- <li><a href="">blog</a></li> -->
+				<li><a href="#kontak">kontak</a></li>
+			</ul>
+			<ul>
+				<li class="login"><a href="login.html">login</a></li>
+			</ul>
+		</nav>
+		<!---------------------- end navbar ----------------------->
+
+
+			<header>
+				<div class="hero" id="home">
+					<div class="content">
+						<h1>AYO BERGABUNG BERSAMA KAMI!</h1>
+						<p>mari bergabung bersama kami untunk membantu membentuk skill anda <br> AYO BURUAN GABUNG!!</p>
+					</div>
+					<img src="asset/saly-10.png" alt="">
+				</div>
+			</header>
+	<!--------------------------------- end beranda ------------------------------------------->
+
+
+
+	<!--------------------------------- start about/tentang -------------------------------------->
+
+			<div class="about" id="abt">
+				<h1>about</h1>
+				<div class="flex">
+			<div class="card">
+				<img src="asset/love.svg" alt="">
+				<h2>aman</h2>
+				<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. </p>
+
+			</div>	
+			<div class="card">
+				<img src="asset/ceria.svg" alt="">
+				<h2>damai</h2>
+				<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. </p>
+
+			</div>
+			<div class="card">
+				<img src="asset/telpon.svg" alt="">
+				<h2>mudah di hubungi</h2>
+				<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. </p>
+			</div>
+		</div>
+			</div>
+	<!--------------------------------- end about/tentang -------------------------------------->
+
+
+	
+
+	<!--------------------------------- start footer ------------------------------------------->
+
+			<footer>
+				<h1>kontak</h1>
+				<p>leange, kecamatan labakkang ,kabupaten pangkep</p>
+				<div class="isi">
+					<!-- <h2>SPONSOR</h2> -->
+					<div class="sponsor">
+						<img src="asset/Logo-Eir.png" alt="">
+						<img src="asset/satu.png" alt="">
+						<img src="asset/dua.png" alt="">
+						<img src="asset/Logo-PNUP.png" alt="">
+					</div>
+				</div>
+				<div class="sosmed" id="kontak">
+					<h2>IKUTI KAMI</h2>
+					<div class="smd">
+						<a href="www.facebook.com"><img src="asset/icons8-facebook.svg" alt="">
+						<a href="www.instagram.com"><img src="asset/icons8-instagram.svg" alt=""></a>
+						<a href="www.tiktok.com"><img src="asset/icons8-tiktok.svg" alt=""></a>
+						<a href="www.whatsapp.com"><img src="asset/icons8-whatsapp.svg" alt=""></a>
+						<a href="www.twitter.com"><img src="asset/icons8-twitter.svg" alt=""></a>
+					</div>
+				</div>
+			</footer>
+	<!--------------------------------- end footer ------------------------------------------->
+
+	</section>
+	<script>
+
+		// start animation nav
+
+
+		window.addEventListener("scroll", function(){
+			var nav = document.querySelector("nav");
+			nav.classList.toggle("sticky", window.scrollY > 0)
+		})
+
+
+		// end animation nav
+	</script>
+</body>
+</html>
